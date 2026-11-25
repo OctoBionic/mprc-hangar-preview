@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#14110f" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Micro Pilots RC · Hangar Preview</title>
+  <script type="module" crossorigin src="./assets/index-DBAI62Rr.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CPkNlXUN.css">
+</head>
+<body>
+  <canvas id="c" aria-label="Micro Pilots RC hangar, 3D view"></canvas>
+
+  <header class="brand" aria-label="Micro Pilots RC">
+    <div class="brand-name">Micro Pilots RC</div>
+    <div class="brand-sub">Hangar · preview</div>
+  </header>
+
+  <div id="loading" class="loading" role="status" aria-live="polite">
+    <div class="loading-label">Rolling the hangar doors into place…</div>
+    <div class="bar"><div id="bar-fill" class="bar-fill"></div></div>
+  </div>
+
+  <nav id="entry" class="entry" hidden>
+    <button id="btn-vr" class="btn primary" type="button" hidden>Enter Hangar in VR</button>
+    <button id="btn-enter" class="btn" type="button">Enter Hangar</button>
+  </nav>
+
+  <nav id="inside" class="inside" hidden>
+    <p id="hint" class="hint">Drag to look around the Skylark</p>
+    <div class="inside-actions">
+      <button id="btn-vr-inside" class="btn small primary" type="button" hidden>Enter VR</button>
+      <button id="btn-out" class="btn small" type="button">Back outside</button>
+    </div>
+  </nav>
+
+  <div id="toast" class="toast" role="alert" hidden></div>
+  <div id="fade" class="fade"></div>
+
+</body>
+</html>
