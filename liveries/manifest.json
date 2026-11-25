@@ -1,0 +1,52 @@
+[
+  {
+    "id": "racing-blue",
+    "name": "Racing Blue",
+    "swatch": "#115ef3",
+    "files": [
+      "paint_color",
+      "paint_mr",
+      "paint_n",
+      "mech_color",
+      "mech_mr"
+    ]
+  },
+  {
+    "id": "racing-lime",
+    "name": "Racing Lime",
+    "swatch": "#cdef06",
+    "files": [
+      "paint_color",
+      "paint_mr",
+      "paint_n",
+      "mech_color",
+      "mech_mr",
+      "glass_color",
+      "glass_mr"
+    ]
+  },
+  {
+    "id": "racing-purple",
+    "name": "Racing Purple",
+    "swatch": "#8c13cd",
+    "files": [
+      "paint_color",
+      "paint_mr",
+      "paint_n",
+      "mech_color",
+      "mech_mr"
+    ]
+  },
+  {
+    "id": "racing-red",
+    "name": "Racing Red",
+    "swatch": "#ee4416",
+    "files": [
+      "paint_color",
+      "paint_mr",
+      "paint_n",
+      "mech_color",
+      "mech_mr"
+    ]
+  }
+]

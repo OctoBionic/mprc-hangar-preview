@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#14110f" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>Micro Pilots RC · Hangar Preview</title>
-  <script type="module" crossorigin src="./assets/index-jifhkaTy.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-CPkNlXUN.css">
+  <title>Micro Pilots RC · Hangar Preview</title>
+  <script type="module" crossorigin src="./assets/index-BrV64oV6.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Dmd6OH47.css">
 </head>
 <body>
   <canvas id="c" aria-label="Micro Pilots RC hangar, 3D view"></canvas>
@@ -35,8 +35,16 @@
     </div>
   </nav>
 
+  <div id="livery" class="livery" hidden>
+    <button id="livery-btn" class="livery-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="livery-menu">
+      <span class="chips" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Livery</span>
+    </button>
+    <div id="livery-menu" class="livery-menu" role="menu" aria-label="Choose a livery" hidden></div>
+  </div>
+
   <div id="toast" class="toast" role="alert" hidden></div>
   <div id="fade" class="fade"></div>
-
+
 </body>
 </html>
